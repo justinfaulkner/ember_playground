@@ -1,0 +1,29 @@
+<!-- get the title from the IndexController -->
+<h1>{{title}}</h1>
+
+<p>Homepage of: <strong>{{firstName}} {{lastName}}</strong></p>
+
+{{#if person}}
+    Welcome back, <strong>{{person.firstName}} {{person.lastName}}</strong>
+{{else}}
+    Please log in.
+{{/if}}
+
+<ul>
+    {{#each item in items}}
+        <li>id: {{item.id}}, name: {{item.name}}</li>
+    {{/each}}
+</ul>
+
+{{#with person}}
+    Your name: {{firstName}} {{lastName}}
+{{/with}}
+
+
+
+<label for="approve">Approve?</label>
+<input type="checkbox" name="approve" {{bindAttr disabled="allowedToApprove"}}>
+
+<div id="logo" style="background-color: midnightblue">
+            {{#linkTo "index"}}<img {{bindAttr src="logoUrl"}} alt="Logo" />{{/linkTo}}
+</div>

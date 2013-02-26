@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require foundation
 //= require handlebars
 //= require ember
 //= require ember-data
@@ -22,4 +23,5 @@ Owners = Ember.Application.create({
         console.log('HelloEmber ready!');
     }
 });
+
 //= require_tree .
