@@ -1,1 +1,0 @@
-Owners.TablesController = Ember.ArrayController.extend();

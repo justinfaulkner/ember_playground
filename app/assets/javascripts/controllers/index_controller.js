@@ -1,4 +1,4 @@
-Owners.IndexController = Ember.Controller.extend({
+App.IndexController = Ember.Controller.extend({
     firstName: 'Justin',
     lastName: 'Faulkner',
     person: {

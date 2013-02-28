@@ -1,0 +1,7 @@
+<h2>Tables</h2>
+
+<h3>table partial!</h3>
+
+{{#each table in controller}}
+    {{#linkTo "table" table class="panel six columns"}}{{table.id}}{{/linkTo}}
+{{/each}}

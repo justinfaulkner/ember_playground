@@ -17,8 +17,8 @@
 //= require ember
 //= require ember-data
 //= require_self
-//= require owners
-Owners = Ember.Application.create({
+//= require app
+App = Ember.Application.create({
     ready: function() {
         console.log('HelloEmber ready!');
     }

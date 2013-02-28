@@ -1,5 +1,5 @@
-Owners.TablesRoute = Ember.Route.extend({
+App.TablesRoute = Ember.Route.extend({
     model: function() {
-        return Owners.Table.find();
+        return App.Table.find();
     }
 });
