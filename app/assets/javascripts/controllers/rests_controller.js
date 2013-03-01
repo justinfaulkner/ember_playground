@@ -1,0 +1,1 @@
+Owners.RestsController = Ember.ArrayController.extend();
