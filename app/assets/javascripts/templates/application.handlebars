@@ -1,15 +1,24 @@
-<h1>Application</h1>
+<div class="row">
+    <div class="twelve columns">
+        <h1>Application</h1>
 
-<nav>
-    {{#linkTo "index"}}Home{{/linkTo}} |
-    {{#linkTo "about"}}About{{/linkTo}} |
-    {{#linkTo "favorites"}}Favorites{{/linkTo}} |
-    {{#linkTo "contributors"}}Contributors{{/linkTo}}
-</nav>
+        <nav>
+            {{#linkTo "index"}}Home{{/linkTo}} |
+            {{#linkTo "about"}}About{{/linkTo}} |
+            {{#linkTo "favorites"}}Favorites{{/linkTo}} |
+            {{#linkTo "contributors"}}Contributors{{/linkTo}}
+        </nav>
 
-<h1>Ordr</h1>
 
-<p>Your content here.</p>
 
-{{outlet}}
+        <p>Your content here.</p>
+
+        <h1>Ordr</h1>
+        <hr />
+        <p>
+            {{outlet}}
+        </p>
+    </div>
+</div>
+
 

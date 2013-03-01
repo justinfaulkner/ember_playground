@@ -17,11 +17,13 @@
 //= require ember
 //= require ember-data
 //= require_self
-//= require owners
-Owners = Ember.Application.create({
-    ready: function() {
-        console.log('HelloEmber ready!');
-    }
+//= require app
+App = Ember.Application.create({
+  LOG_TRANSITIONS: true,
+
+  ready: function() {
+    console.log('HelloEmber ready!');
+  }
 });
 
 //= require_tree .

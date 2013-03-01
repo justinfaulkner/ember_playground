@@ -1,0 +1,2 @@
+class TabItemsController < ApplicationController
+end

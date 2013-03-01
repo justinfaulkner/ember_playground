@@ -24,6 +24,10 @@ group :assets do
   gem 'zurb-foundation', github: 'zurb/foundation'
 end
 
+group :test, :development do
+  gem 'konacha'
+end
+
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password

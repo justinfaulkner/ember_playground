@@ -1,5 +1,5 @@
-Owners.Contributor = Ember.Object.extend();
-Owners.Contributor.reopenClass({
+App.Contributor = Ember.Object.extend();
+App.Contributor.reopenClass({
     allContributors: [],
     all: function() {
         this.allContributors = [];
@@ -9,7 +9,7 @@ Owners.Contributor.reopenClass({
             context: this,
             success: function(response) {
                 response.data.forEach(function(contributor) {
-                    this.allContributors.addObject(Owners.Contributor.create(contributor))
+                    this.allContributors.addObject(App.Contributor.create(contributor))
                 }, this)
             }
         });

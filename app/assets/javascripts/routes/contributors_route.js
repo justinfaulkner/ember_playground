@@ -1,5 +1,5 @@
-Owners.ContributorsRoute = Ember.Route.extend({
+App.ContributorsRoute = Ember.Route.extend({
    model: function() {
-       return Owners.Contributor.all();
+       return App.Contributor.all();
    }
 });

@@ -2,51 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70a66330-9082-48eb-a5e7-daa1529bf98c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/contributor.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/models/contributor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/routes/contributors_route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/models/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/tables.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/controllers/tables_controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/routes/tables_route.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/append.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/javascripts/append_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/prime_numbers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/javascripts/prime_numbers_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/javascripts/tables_spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/templates/application.handlebars" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/application.handlebars" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/templates/contributors.handlebars" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/contributors.handlebars" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/router.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/store.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/store.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="owners.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361989680167" ignored="false" />
+    <file path="/Dummy.txt" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362081310124" ignored="false" />
     <file path="/Gemfile" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361991705956" ignored="false" />
-    <file path="/application.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361925436920" ignored="false" />
+    <file path="/application.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361999128885" ignored="false" />
     <file path="$USER_HOME$/Library/Preferences/RubyMine50/options/window.manager.xml" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361908136735" ignored="false" />
     <file path="$USER_HOME$/Library/Preferences/RubyMine50/options/options.xml" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361907919020" ignored="false" />
     <file path="$USER_HOME$/Library/Preferences/RubyMine50/options/other.xml" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361908374159" ignored="false" />
     <file path="$USER_HOME$/Library/Preferences/RubyMine50/options/notifications.xml" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361907919020" ignored="false" />
-    <file path="/application_controller.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361913455587" ignored="false" />
-    <file path="/application.handlebars" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361990040542" ignored="false" />
-    <file path="/router.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361990232504" ignored="false" />
+    <file path="/application_controller.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361999136749" ignored="false" />
+    <file path="/application.handlebars" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361992322095" ignored="false" />
+    <file path="/router.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362013651932" ignored="false" />
     <file path="/application.css" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361915942814" ignored="false" />
-    <file path="/index_route.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361916167189" ignored="false" />
-    <file path="/index_controller.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361916846964" ignored="false" />
+    <file path="/index_route.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361999196140" ignored="false" />
+    <file path="/index_controller.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361999146037" ignored="false" />
     <file path="/posts.handlebars" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361919646771" ignored="false" />
     <file path="/contributors.handlebars" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361923167180" ignored="false" />
     <file path="/about.handlebars" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361919952590" ignored="false" />
-    <file path="/contributor.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361922195874" ignored="false" />
-    <file path="/contributors_route.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361922542336" ignored="false" />
+    <file path="/contributor.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361999174768" ignored="false" />
+    <file path="/contributors_route.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361999190430" ignored="false" />
     <file path="/contributor.hbs" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361923225331" ignored="false" />
-    <file path="/tables.hbs" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361991458160" ignored="false" />
-    <file path="/tables_route.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361990399208" ignored="false" />
-    <file path="/table.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361990595611" ignored="false" />
-    <file path="/store.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361990515957" ignored="false" />
-    <file path="/tables_controller.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361990667132" ignored="false" />
+    <file path="/tables.hbs" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361998332282" ignored="false" />
+    <file path="/tables_route.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361999212284" ignored="false" />
+    <file path="/table.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362014022855" ignored="false" />
+    <file path="/store.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361999260947" ignored="false" />
+    <file path="/tables_controller.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361999163067" ignored="false" />
+    <file path="/_table_menu.hbs" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362003451469" ignored="false" />
+    <file path="/application.scss" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361993416294" ignored="false" />
+    <file path="/table.hbs" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362009336284" ignored="false" />
+    <file path="/table.route.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362088117402" ignored="false" />
+    <file path="/table_controller.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361999152944" ignored="false" />
+    <file path="/application_route.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361999862039" ignored="false" />
+    <file path="/application_view.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1361999224422" ignored="false" />
+    <file path="/food_controller.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362093517319" ignored="false" />
+    <file path="/food.hbs" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362087640206" ignored="false" />
+    <file path="/food_item_controller.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362001588805" ignored="false" />
+    <file path="/application.html.erb" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362001864875" ignored="false" />
+    <file path="/index.hbs" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362003271401" ignored="false" />
+    <file path="/tab_controller.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362009045712" ignored="false" />
+    <file path="/tab.hbs" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362010602869" ignored="false" />
+    <file path="/money_helper.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362011083567" ignored="false" />
+    <file path="/restaurants_controller.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362013678729" ignored="false" />
+    <file path="/restaurants_route.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362013753711" ignored="false" />
+    <file path="/restaurants.hbs" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362013832763" ignored="false" />
+    <file path="/prime_numbers.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362089102212" ignored="false" />
+    <file path="/prime_numbers_spec.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362090233914" ignored="false" />
+    <file path="/append.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362090600246" ignored="false" />
+    <file path="/append_spec.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362090745914" ignored="false" />
+    <file path="/tables_spec.js" changelist="70a66330-9082-48eb-a5e7-daa1529bf98c" time="1362095070809" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +75,85 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.4637931">
       <split-first>
         <leaf>
-          <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <file leaf-file-name="tables_route.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes/tables_route.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="18" selection-start="598" selection-end="598" vertical-scroll-proportion="0.28526148">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="owners.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/owners.js">
+          <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Gemfile">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="28" column="3" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="prime_numbers.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/prime_numbers.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="16" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="prime_numbers_spec.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/spec/javascripts/prime_numbers_spec.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="26" column="38" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="append.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/append.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="5" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="append_spec.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/spec/javascripts/append_spec.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="3" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tables_spec.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/spec/javascripts/tables_spec.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="8" selection-start="465" selection-end="465" vertical-scroll-proportion="0.5311615">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/router.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="23" selection-start="406" selection-end="425" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding>
@@ -85,38 +163,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/router.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="3" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="store.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/store.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="29" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="10" selection-start="64" selection-end="64" vertical-scroll-proportion="-2.5">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="application.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+          <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -125,37 +178,64 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="tables_controller.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/tables_controller.js">
+          <file leaf-file-name="food_controller.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/food_controller.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="55" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+                <state line="7" column="23" selection-start="328" selection-end="328" vertical-scroll-proportion="0.13962767">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="tables.hbs" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/tables.hbs">
+          <file leaf-file-name="application_controller.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/application_controller.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="16" selection-start="63" selection-end="63" vertical-scroll-proportion="-1.875">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Gemfile">
+          <file leaf-file-name="money_helper.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/helpers/money_helper.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="50" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="application.handlebars" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/application.handlebars">
+          <file leaf-file-name="contributor.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/models/contributor.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.2332815">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index_controller.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/index_controller.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="food_item_controller.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/food_item_controller.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="table.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/models/table.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="135" column="39" selection-start="2162" selection-end="2162" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -181,29 +261,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/posts.handlebars" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/about.handlebars" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/routes/contributors_route.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/models/contributor.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/contributors.handlebars" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/contributor.hbs" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/application.handlebars" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/helpers/money_helper.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/router.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/routes/tables_route.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/store.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/routes/restaurants_route.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/restaurants.hbs" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/models/table.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/controllers/tables_controller.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/tables.hbs" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/controllers/restaurants_controller.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/food.hbs" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/routes/table.route.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/routes/application_route.js" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/prime_numbers.js" />
+        <option value="$PROJECT_DIR$/spec/javascripts/prime_numbers_spec.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/append.js" />
+        <option value="$PROJECT_DIR$/spec/javascripts/append_spec.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/controllers/food_controller.js" />
+        <option value="$PROJECT_DIR$/spec/javascripts/tables_spec.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="790" />
+    <option name="x" value="1440" />
+    <option name="width" value="1600" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -231,7 +311,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,39 +339,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owners" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="environments" />
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -420,110 +471,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="owners" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -545,9 +492,14 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -555,8 +507,40 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
-  <component name="RunManager" selected="Rails.Development: owners">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.All tests in: views">
+    <configuration default="false" name="All tests in: views" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="owners" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/app/assets/javascripts/views" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$PROJECT_DIR$/app/assets/javascripts/views" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -772,12 +756,18 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Rake.test" />
       <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: owners" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: owners" />
+      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in: views" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in: views" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -789,20 +779,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="790" extended-state="6" />
+    <frame x="1440" y="0" width="1600" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805756" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22022955" sideWeight="0.6719425" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23552124" sideWeight="0.6724782" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -869,77 +859,84 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes/index_route.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes/restaurants_route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes/table.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="5" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routes/tables_route.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/models/contributor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/models/table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/posts_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/index_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/tables_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="55" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/tables.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="63" selection-end="63" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="50" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
+        <state line="28" column="3" selection-start="659" selection-end="659" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/application.handlebars">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/prime_numbers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.2332815">
+        <state line="6" column="16" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/owners.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/food.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="3" column="36" selection-start="97" selection-end="97" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/append.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/models/table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="39" selection-start="2162" selection-end="2162" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/controllers/food_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="328" selection-end="328" vertical-scroll-proportion="0.13962767">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/javascripts/prime_numbers_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="38" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/javascripts/append_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -948,35 +945,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="3" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+        <state line="13" column="23" selection-start="406" selection-end="425" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="10" selection-start="64" selection-end="64" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="598" selection-end="598" vertical-scroll-proportion="0.28526148">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/javascripts/tables_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="8" selection-start="465" selection-end="465" vertical-scroll-proportion="0.5311615">
           <folding />
         </state>
       </provider>
