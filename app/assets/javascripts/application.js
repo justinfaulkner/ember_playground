@@ -19,9 +19,11 @@
 //= require_self
 //= require app
 App = Ember.Application.create({
-    ready: function() {
-        console.log('HelloEmber ready!');
-    }
+  LOG_TRANSITIONS: true,
+
+  ready: function() {
+    console.log('HelloEmber ready!');
+  }
 });
 
 //= require_tree .

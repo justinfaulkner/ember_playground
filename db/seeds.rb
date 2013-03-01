@@ -3,5 +3,48 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+tables = Table.create(
+	[{
+	    name: "One"
+	}, {
+	    name: "Two"
+	}, {
+	    name: "Three"
+	}, {
+	    name: "Four"
+	}, {
+	    name: "Five"
+	}, {
+	    name: "Six"
+	}]
+)
+
+foods = Food.create(
+	[{
+    id: 1,
+    name: 'Pizza',
+    image_url: 'pizza.png',
+    cents: 1500
+	}, {
+	  id: 2,
+    name: 'Pancakes',
+    image_url: 'pancakes.png',
+    cents: 300
+	}, {
+    id: 3,
+    name: 'Fries',
+    image_url: 'fries.png',
+    cents: 700
+	}, {
+    id: 4,
+    name: 'Hot Dog',
+    image_url: 'hotdog.png',
+    cents: 950
+	}, {
+    id: 5,
+    name: 'Birthday Cake',
+    image_url: 'birthdaycake.png',
+    cents: 2000
+	}]
+)
 #   Mayor.create(name: 'Emanuel', city: cities.first)
